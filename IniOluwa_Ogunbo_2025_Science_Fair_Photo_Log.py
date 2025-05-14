@@ -4,6 +4,7 @@
 import streamlit as st
 from streamlit_carousel import carousel
 from PIL import Image
+import pandas as pd
 
 st.info('# IniOluwa Ogunbo 2025 Science Fair Photo Log')
 st.header('Seoul Central Grade 5 Science Experiment')
@@ -131,3 +132,7 @@ test_items = [
     
 ]
 carousel(items=test_items)
+st.header("Bean and Lettuce Growth Log")
+df = pd.read_csv("Grade_5_Science_Experiment_Log.csv")
+#st.dataframe(df.head())
+st.dataframe(df, height=None) # To display all rows with scrollbar if needed
