@@ -3,10 +3,20 @@
 
 import streamlit as st
 from streamlit_carousel import carousel
+from PIL import Image
 
 st.info('# IniOluwa Ogunbo 2025 Science Fair Photo Log')
 st.header('Seoul Central Grade 5 Science Experiment')
 st.subheader('Effects of Red, Blue and White light on Plant Growth: Beans and Lettuce')
+img = Image.open("IniOluwa_SCI_Photo.jpg")
+# #img = Image.open(r"C:\Users\Ogunbo\Documents\Language_subtitles\Jide_Ogunbo_Photo.jpg")
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
+    st.image(image=img) #,width=300)
+
+# st.image(image=img,width=100)
+
+
 
 test_items = [
     dict(
