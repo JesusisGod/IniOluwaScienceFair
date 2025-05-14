@@ -179,7 +179,7 @@ test_items = [
     
 ]
 carousel(items=test_items)
-st.header("Bean and Lettuce Growth Log 2")
+st.header("Bean and Lettuce Growth Log")
 #df = pd.read_csv("Grade_5_Science_Experiment_Log.csv")
 df = pd.read_csv("Grade_5_Science_Experiment_Log2.csv")
 #st.dataframe(df.head())
