@@ -77,14 +77,12 @@ test_items = [
     dict(
         title="Slide 10",
         text="Red Light",
-        img="14.jpg",
-        
+        img="14.jpg",        
     ),
     dict(
         title="Slide 11",
         text="Sprouting",
-        img="14a.jpg",
-        
+        img="14a.jpg",        
     ),
     dict(
         title="Slide 12",
@@ -101,34 +99,83 @@ test_items = [
     dict(
         title="Slide 14",
         text="Seedling + Red Light in Black Bag",
-        img="18.jpg",
-        
+        img="18.jpg",        
     ),
     dict(
         title="Slide 15",
         text="Seedling + Blue Light",
-        img="20.jpg",
-        
+        img="20.jpg",        
     ),
     dict(
         title="Slide 16",
         text="Seedling + Blue Light Side View",
-        img="21.jpg",
-        
+        img="21.jpg",        
     ),
     dict(
         title="Slide 17",
         text="Seedling + Blue Light in Black Bag",
-        img="22.jpg",
-        
+        img="22.jpg",        
     ),
     dict(
         title="Slide 18",
         text="Seedling + Blue and Red Light in Black Bags Growing",
-        img="23.jpg",
-        
+        img="23.jpg",        
     ),
-    
+    dict(
+        title="Slide 19",
+        text="Bean + Blue Light",
+        img="BL_1.jpg",        
+    ),
+    dict(
+        title="Slide 20",
+        text="Bean + Blue Light",
+        img="BL_2.jpg",        
+    ),
+    dict(
+        title="Slide 21",
+        text="Bean + Blue Light",
+        img="BL_2b.jpg",        
+    ),
+    dict(
+        title="Slide 22",
+        text="Root Bean + Blue Light",
+        img="BL_3.jpg",        
+    ),
+    dict(
+        title="Slide 23",
+        text="Root Bean + Blue Light",
+        img="BL_4.jpg",        
+    ),      
+    dict(
+        title="Slide 24",
+        text="Root Bean + Red Light",
+        img="RL_1.jpg",        
+    ),
+    dict(
+        title="Slide 25",
+        text="Root Bean + Red Light",
+        img="RL_2.jpg",        
+    ),
+    dict(
+        title="Slide 26",
+        text="Root Bean + White Light",
+        img="WL_1.jpg",        
+    ),
+    dict(
+        title="Slide 27",
+        text="Red, Green, White",
+        img="RGW_1.jpg",        
+    ),
+    dict(
+        title="Slide 28",
+        text="Red, Green, White",
+        img="RGW_2.jpg",        
+    ),
+    dict(
+        title="Slide 29",
+        text="Red, Green, White",
+        img="RGW_3.jpg",        
+    ),
     
 ]
 carousel(items=test_items)
